@@ -59,6 +59,36 @@ nav a:hover {
   opacity: 0.5;
 }
 
+.hamburger__menu--close {
+  display: none;
+  z-index: 5000;
+}
+
+.mobile__menu {
+  display: none;
+  text-align: center;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 6rem;
+  right: 6rem;
+  top: 8rem;
+  background-color: white;
+  padding: 3rem 10rem;
+  z-index: 555;
+  border-radius: 10px;
+}
+
+.mobile__menu a {
+  text-decoration: none;
+  color: black;
+}
+
+.mobile__menu li {
+  list-style: none;
+  padding: 2rem 2rem;
+}
+
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -313,8 +343,6 @@ footer {
 /*                 M M   O O   BBB   I  L    EEE                      */
 /*                 M M   OOO   BBB   I  LLL  EEE                      */
 
-
-
 @media only screen and (max-width: 1100px) {
   .nav__button {
     display: none;
@@ -436,4 +464,14 @@ footer {
     flex-direction: column;
     gap: 0;
   }
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: hsl(0, 0%, 0%);
+  opacity: 0.5;
+  display: none;
 }
