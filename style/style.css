@@ -276,9 +276,6 @@ footer {
   list-style: none;
 }
 
-.footer__medium ul {
-}
-
 .footer__right {
   padding-right: 2rem;
   display: flex;
@@ -337,6 +334,7 @@ footer {
   .hero__head {
     font-size: 3.8rem;
   }
+
   .hero__img--content {
     position: absolute;
     top: 14rem;
